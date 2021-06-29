@@ -1,6 +1,7 @@
-import 'package:pfa/pages/CreditVehiculeNeuve.dart';
 import 'package:pfa/pages/Echec.dart';
 import 'package:pfa/pages/Felicitation.dart';
+import 'package:pfa/pages/vehiculeNeufScreen.dart';
+import 'package:pfa/pages/vehiculeOccasionScreen.dart';
 
 import '../pages/Consommation.dart';
 import '../pages/Education.dart';
@@ -74,7 +75,10 @@ class NavigationBloc extends Bloc<NavigationEvents, NavigationStates> {
         yield BesoinMedical();
         break;
         case NavigationEvents.vehiculeNeuve:
-        yield CreditVehiculeNeuve();
+        yield VehiculeNeuveScreen();
+        break;
+        case NavigationEvents.vehiculeOccasion:
+        yield VehiculeOccasionScreen();
         break;
         case NavigationEvents.BesoinMedicalClickedEvent:
         yield BesoinMedical();

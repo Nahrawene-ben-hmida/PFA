@@ -1,12 +1,19 @@
-import 'package:first_app/categSocioPro.dart';
-import 'package:first_app/choseCredit.dart';
+import 'package:pfa/bloc.navigation_bloc/navigation_bloc.dart';
+
+import 'categSocioPro.dart';
+import 'choseCredit.dart';
 import 'package:flutter/material.dart';
+import 'categSocioPro.dart';
+import 'choseCredit.dart';
 import 'textflield.dart';
 //import 'periodicité.dart';
 import 'periodProfesssion.dart';
 import 'checkBox.dart';
 import 'checkpuissance.dart';
-class SpecificO extends StatelessWidget {
+
+
+
+class VehiculeOccasionScreen extends StatelessWidget with NavigationStates  {
   List taux = ['fixe', 'variable'];
   @override
   Widget build(BuildContext context) {

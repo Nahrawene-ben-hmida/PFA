@@ -6,7 +6,7 @@ class BesoinIslamique extends StatelessWidget with NavigationStates {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        "BesoinIslamique",
+        "Besoin Islamique",
         style: TextStyle(fontWeight: FontWeight.w900, fontSize: 28),
       ),
     );

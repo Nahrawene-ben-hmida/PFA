@@ -6,7 +6,7 @@ class BesoinMedical extends StatelessWidget with NavigationStates {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        " BesoinMedical ",
+        " Besoin Medical ",
         style: TextStyle(fontWeight: FontWeight.w900, fontSize: 28),
       ),
     );

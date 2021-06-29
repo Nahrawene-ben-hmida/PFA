@@ -11,8 +11,7 @@ class ChoseCredit extends StatelessWidget {
         child: SizedBox(
           width : MediaQuery.of(context).size.width * mywidth,
           child: RaisedButton(
-            color: Colors.blue[900],
-            elevation:5.0,
+            color: Color(0xFF262AAA),            elevation:5.0,
             splashColor: Colors.grey[400],
             shape: RoundedRectangleBorder(
               borderRadius: new BorderRadius.circular(10.0),

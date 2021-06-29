@@ -6,7 +6,7 @@ class Education extends StatelessWidget with NavigationStates {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        "HomePage",
+        "Education Page",
         style: TextStyle(fontWeight: FontWeight.w900, fontSize: 28),
       ),
     );
